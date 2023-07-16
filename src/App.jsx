@@ -1,5 +1,5 @@
 const App = () => {
-    return <section>dfgdfgdhfg</section>;
+    return <>dfgdfgdhfg</>;
 };
 
 export default App;
