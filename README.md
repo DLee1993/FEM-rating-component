@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL:
--   Live Site URL:
+-   Solution URL: https://www.frontendmentor.io/solutions/rating-component-8GxZziqe7q
+-   Live Site URL: https://dlee1993.github.io/FEM-rating-component/
 
 ## My process
 
@@ -42,8 +42,10 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
+I learned to use props to pass the data between the components, this was used for displaying the rating as well as making a check before submitting the rating. 
 
+### Continued development
+I continue to develop my tailwind skills
 ### Useful resources
 
 -   Tailwindcss Docs (https://www.tailwindcss.com)

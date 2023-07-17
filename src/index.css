@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-overpass text-[15px] bg-veryDarkBlue text-white;
+    }
+    input[type="radio"] {
+        @apply rounded-full bg-lightGray/10;
+    }
+    input[type="radio"]:checked {
+        @apply bg-lightGray;
+    }
+    input[type="radio"]:checked + label {
+        @apply text-white;
+    }
+}
+
+@layer components {
+    .hidden {
+        visibility: hidden;
+    }
+}
