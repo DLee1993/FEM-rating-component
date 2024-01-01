@@ -40,7 +40,7 @@ const Ratingform = ({ messageVisible, setMessageVisible, starRating, setStarRati
                     </svg>
                 </figure>
                 <section>
-                    <h1 className="text-[27px] font-bold mt-8">How did we do?</h1>
+                    <h2 className="text-[27px] font-bold mt-8">How did we do?</h2>
                     <p className="text-lightGray mt-2">
                         Please let us know how we did with your support request. All feedback is
                         appreciated to help us improve our offering!
