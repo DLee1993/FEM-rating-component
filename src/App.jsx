@@ -8,6 +8,7 @@ const App = () => {
 
     return (
         <main className="h-screen flex justify-center items-center">
+            <h1 className="text-4xl font-bold text-center sr-only">Rating Component</h1>
             <Ratingform setMessageVisible={setMessageVisible} messageVisible={messageVisible} starRating={starRating} setStarRating={setStarRating}/>
             <ThankyouMessage messageVisible={messageVisible} starRating={starRating}/>
         </main>

@@ -30,6 +30,7 @@ const Ratingform = ({ messageVisible, setMessageVisible, starRating, setStarRati
             }
         >
             <section id="ratingFormText" className="flex justify-evenly items-start flex-col h-1/2">
+                <h2 className="text-4xl font-bold text-center sr-only">Form text</h2>
                 <figure className="bg-lightGray/10 p-2 rounded-3xl w-10 h-10 flex justify-center items-center">
                     <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
                         <path
